@@ -1,0 +1,13 @@
+package bridge;
+
+public class ClothesCorp extends Corp {
+
+	public ClothesCorp(Clothes product) {
+		super(product);
+	}
+
+	// 服装公司不景气,但怎么说也是赚钱行业也
+	public void makeMoney() {
+		super.makeMoney();
+	}
+}
