@@ -13,11 +13,12 @@ public class GamePlayer2 implements IGamePlayer2{
 	private IGamePlayer2 proxy = null;
 	
 	private boolean isProxy(){
-		if(this.proxy == null){
+		/*if(this.proxy == null){
 			return false;
 		} else{
 			return true;
-		}
+		}*/
+		return true;
 	}
 	
 
