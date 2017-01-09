@@ -1,0 +1,9 @@
+package test1.bridge;
+
+public abstract class Product {
+	
+	public abstract void beProducted();
+	
+	public abstract void beSelled();
+	
+}
